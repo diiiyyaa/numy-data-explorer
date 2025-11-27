@@ -65,39 +65,7 @@ numpy_data_explorer/
 │   └── sample.csv       # Example dataset
 │
 └── tests/
-    └── test_explorer.py # Optional tests
-
-🛠️ Installation
-1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/numpy-data-explorer.git
-cd numpy-data-explorer
-
-2. Create a virtual environment
-python -m venv .venv
-
-3. Activate the environment
-Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-
-CMD:
-.\.venv\Scripts\activate.bat
-
-Mac/Linux
-source .venv/bin/activate
-
-4. Install dependencies
-pip install -r requirements.txt
-
-▶️ Run the Application
-streamlit run app.py
-
-
-Your app will open automatically on:
-
-http://localhost:8501
-
-🧪 Testing (optional)
-pytest -q
+    └── test_explorer.py # Optional test
 
 📊 Sample CSV
 
